@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0 px;
+
+}
+
+
+#navbar{
+    background-color: red;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    height: 30px;
+}
+#navbar li a{ 
+    color: white;
+    font-size: 1.3rem;
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    font-size: 65px;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/michael-afonso-z8Tul255kGg-unsplash.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+.card-box{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.card-img img{
+    height: 0px  0px;
+    height: inherit;
+    padding: 0px 0px;
+}
+#sponsersSection {
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    background-color:pink;
+}
+#sponsorsSectionh2{
+    text-align: center;
+    margin-top: 12px;
+}#missionSection{
+    text-align: center;
+    justify-content: center;
+    background-color:whitesmoke;
+    height: 600px;
+    font-style: italic;
+    font-size: 30px;
+    
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card{
+    display: inline-block;
+border: 2px solid black;
+border-radius: 10px;
+width: 30%;
+margin: 33px 75px;
+height: 300px;
+background-color: pink;
+}
+#missionSectionh3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: bold;
+    font-weight: bold;
+    background-color: palevioletred;
+}
+
+#footer{
+
+    background-color: black;
+    height: 100px;
+}
